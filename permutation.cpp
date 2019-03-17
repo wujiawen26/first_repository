@@ -14,6 +14,9 @@ void print_permutation(int n){
 	permutation(n, A, 0);
 }
 
+
+
+
 void permutation(int n, int *A, int cur){
 	if (cur == n){
 		cout << "( " << A[0];
